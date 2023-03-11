@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/*------------------------------------for javascript----------------------------------------------------------*/
+.afterScroll{
+    color: white;
+    transition: all 1s;
+    background-color:black;
+}
+/*<--------------------------------------------------navigation bar---------------------------------------------------------------------------->*/
+
+#collapsenavbar ul li {
+    margin-right: 20px;
+}
+
+/*<--------------------------------------------------------------main bar---------------------------------------------------------------------------->*/
+
+
+#box .myVideo {
+          position:relative;
+          height: 100vh;
+          width: 100%;
+          object-fit: cover;
+           z-index: 1;
+}
+
+#box #main{
+    z-index: 2;
+   color: white;
+   position:absolute;
+   left: 150px; 
+   top: 150px;
+}
+
+#main .sline{
+    height: 1px;
+    background-color: yellow;
+
+}
+
+#main h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#main h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#main img{
+    width: 140px;
+    height: 40px;
+}
+
+
+#box #bottom{
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    color: white;
+
+}
+#bottom .lline{
+    background-color: gray;
+
+}
+
+
+#bottom img{
+    width: 100px;
+    height: 60px;
+}
+
+
+/*<----------------------------------------------------------------------------ABOUT SECTION-----------------------------------------------------*/
+#about{
+   height: 100vh;
+    padding: 120px 0px 60px;
+}
+
+
+#abrow{
+    text-align: center;
+}
+
+#abrow h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#abrow p{
+    font-size: 25px;
+}
+#abrow2{
+    margin-top: 70px;
+}
+
+
+
+#abrow2 .col-3{
+    border-right: 2px solid gray;
+}
+
+.inspan span{
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.heading{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+/*---------------------------------------------------------------------------------servics----------------------------------------------------------------------------------------*/
+
+.Services{
+    height: 100vh; 
+     font-family: 'Roboto', sans-serif;
+     background-color: hsl(210, 20%, 98%);
+    padding: 150px 0px 60px;
+    letter-spacing: 1px;
+    line-height: 35px;
+
+}
+
+.Services h1{
+    font-weight: bolder;
+
+}
+.Services  h5{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.Services img{
+    height: 70px;
+    width: 70px;
+}
+
+#ser1{
+    text-align: center;
+    margin-top: 70px;
+}
+#ser1 ul li{
+
+    font-weight: bold;
+    list-style: none;
+}
+
+/*------------------------------------------------------------------case studies1-------------------------------------------------------------------------------------------*/
+  .case-studies1{
+    background-color: #33ccff;
+  }  
+
+.case-studies1,
+.case-studies2,
+.case-studies3{
+    height: 100vh;
+     padding: 110px 0px 60px;
+     font-family: 'Roboto', sans-serif;
+     color: white;
+
+}
+
+.case-studies1 h1,
+.case-studies2 h1,
+.case-studies3 h1{
+    font-weight: bolder;
+}
+
+.case-studies1 img,
+.case-studies2 img,
+.case-studies3 img{
+    height: 500px;
+    width: 100%;
+}
+
+.col-md-4 h2{
+    font-weight: bolder;
+}
+
+.col-md-4 a{
+    background-color: white;
+    font-weight: bold;
+    color:#33ccff ;
+}
+/*------------------------------------------------------------------case studies2-------------------------------------------------------------------------------------------*/
+.case-studies2{
+    background-color: #002533;
+}
+
+
+.case-studies2 .row{
+  margin-top: 25px;
+
+}
+
+/*------------------------------------------------------------------case studies3----------.---------------------------------------------------------------------------------*/
+
+.case-studies3{
+    background-color:#ff9900;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------Testimonials-------------------------------------------------------------------------------------------*/
+.testimonials{
+    height: 1000px;
+    background-color: hotpink;
+    padding: 50px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+
+#parent-row{
+    padding-top: 50px;
+}
+
+.testimonials h1{
+    text-align: center;
+    font-weight: bolder;
+    color: darkblue;
+}
+.testimonials h5{
+    color: darkblue;
+
+}
+#child-row1.col-10,
+#child-row2.col-10,
+#child-row3.col-10,
+#child-row4.col-10,
+#child-row5.col-10,
+#child-row6.col-10,
+#child-row7.col-10,
+#child-row8.col-10
+{
+    padding: 0px 10px;
+
+}
+#child-row1.col-10 h5,
+#child-row2.col-10 h5,
+#child-row3.col-10 h5,
+#child-row4.col-10 h5,
+#child-row5.col-10 h5,
+#child-row6.col-10 h5,
+#child-row7.col-10 h5,
+#child-row8.col-10 h5,
+#child-row1.col-10 h6,
+#child-row2.col-10 h6,
+#child-row3.col-10 h6,
+#child-row4.col-10 h6,
+#child-row5.col-10 h6,
+#child-row6.col-10 h6,
+#child-row7.col-10 h6,
+#child-row8.col-10 h6,
+{
+        font-weight: bolder;
+
+}
+#child-row1 .col-10 p,
+#child-row2 .col-10 p,
+#child-row3 .col-10 p,
+#child-row4 .col-10 p,
+#child-row5 .col-10 p,
+#child-row6 .col-10 p,
+#child-row7 .col-10 p,
+#child-row8 .col-10 p
+{
+    font-weight: bold;
+}
+
+#child-row1 img,
+#child-row2 img,
+#child-row3 img,
+#child-row4 img,
+#child-row5 img,
+#child-row6 img,
+#child-row7 img,
+#child-row8 img,
+#child-row1 img{
+     width: 80px;
+     height: 80px;
+    border-radius: 40px;
+     padding: 0px 10px;
+
+     
+}
+
+
+/*<------------------------------------------------------------------------------------------------------Featured Clients--------------------------------------------------------------------------------------------------------->*/
+
+.Featured-Clients{
+    height: 100vh;
+    background-color:hsl(210, 20%, 98%);
+    padding: 50px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.Featured-Clients #features-row{
+    margin-top: 80px;
+} 
+
+#features-row .col-2{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    max-width: 20%;
+    flex: 0 0 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 20%;
+
+}
+
+.features-head h1{
+    text-align: center;
+
+}
+
+#features-row .sam{
+    border-right: 2px solid  gray;
+    border-bottom: 2px solid  gray;
+}
+#features-row .sam1{
+    border-bottom: 2px solid  gray;
+}
+#features-row .sam2{
+    border-right: 2px solid  gray;
+}
+#features-row .sam3{
+   border: none;
+}
+  
+
+
+#features-row .col-2 img{
+   width: 100px;
+}
+/*<---------------------------------------------------------------------stay intouch------------------------------------------------------------------------->*/
+.intouch{
+    height: 100vh;
+    background-color:black;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+
+}
+.intouch h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.form-group input{
+    border: none;
+    border-bottom: 2px solid royalblue;
+}
+form.btn{
+    color: red;
+}
+#intouch-row h4{
+    font-weight: bolder;
+}
+#intouch-row span{
+    font-weight:bold;
+}
+
+
+
+/*------------------------------------icons style---------------------------------------------------*/
+
+#intouch-row .fa-map-marker{
+    font-size: 30px;
+color: green;
+}
+
+
+#intouch-row .fa-mobile{
+    font-size: 30px;
+color: orchid;
+}
+
+
+
+#intouch-row .fa-envelope{
+    font-size: 20px;
+color: red;
+}
+
+
+#intouch-row .fa-twitter{
+    font-size: 25px;
+color: blue;
+}
+
+
+#intouch-row .fa-facebook{
+    font-size: 25px;
+color: blue;
+}
+
+#intouch-row .fa-linkedin{
+    font-size: 25px;
+color: blue;
+}
+#intouch-row .fa-google-plus{
+    font-size: 25px;
+color: red;
+}
+
+/*<------------------------------------------------------------------------------------------------------media queary start--------------------------------------------------------------------------------------------------------->*/
+
+@media screen and (max-width:1200px ){                            
+        #main img{
+                    /*  width: 150px;
+                      height: 50px;*/
+                      width: 120px;
+                      height: 30px;
+}
+
+/*<-----------------1000px-------------------------------*/
+@media screen and (max-width:1000px ){                            
+        #main img{
+                      width: 100px;
+                      height: 50px;
+}
+    .testimonials{
+                      height: 1400px;
+ }  
+
+/*<-----------------768px-------------------------------*/
+
+@media screen and (max-width:768px ){                            
+        #main img{
+                      width: 80px;
+                      height: 40px;
+}
+      #bottom img{
+    width: 100px;
+    height: 70px;
+}
+.inspan span{
+    font-size: 50px;
+}
+
+.myul{
+    font-size: 10px;
+
+
+}
+.myh5{
+    font-size: 15px;
+}
+ .case-studies1 img{
+    height: 350px;
+    padding-top: 20px;
+}
+.case-studies2 img{
+    height: 350px;
+    padding-top: 20px;
+}
+.case-studies3 img{
+    height: 350px;
+    padding-top: 20px;
+}
+  .testimonials{
+                      height: 1500px;
+ } 
+ .intouch{
+    height: inherit;
+}
+/*<-----------------700px-------------------------------*/
+
+@media screen and (max-width:700px ){                            
+       #bottom img{
+    width: 80px;
+    height: 70px;
+}
+
+
+#main #myh1{
+    font-size: 35px;
+    width: 220px;
+}
+#main #myh4{
+    font-size: 25px;
+}
+
+
+#box #main{
+ 
+   left: 80px; 
+   top: 150px;
+}
+}
+
+
+/*<-----------------615px-------------------------------*/
+
+@media screen and (max-width:615px ){ 
+#main{
+    width: 380px;
+}
+#main #myh1{
+    font-size: 30px;
+    width: 220px;
+}                           
+  
+  #main #myh4{
+    font-size: 18px;
+}
+#main img{
+                      width: 50px;
+                      height: 30px;
+}
+#title{
+    font-size: 25px;
+}
+
+#ab2 p{
+    font-size: 15px;
+}
+
+}
+
+/*<-----------------535px-------------------------------*/
+
+@media screen and (max-width:615px ){ 
+#main{
+    width: 350px;
+}
+#main #myh1{
+    font-size: 25px;
+    width: 220px;
+}                           
+  
+  #main #myh4{
+    font-size: 16px;
+}
+#main img{
+                      width: 50px;
+                      height: 30px;
+}
+     #bottom img{
+    width: 60px;
+    height: 50px;
+}
+.inspan span{
+    font-size: 30px;
+}
+ .testimonials{
+                      height: 1800px;
+ }  
+#features-row .col-2 img{
+    width: 50px;
+    height: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
